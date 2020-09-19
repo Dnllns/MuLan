@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- My estilo -->
+    <link rel="stylesheet" href="assets/css/pop_dnllns.css">
+    <link rel="stylesheet" href="assets/css/parcheo.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/libs/bootstrap-4.3.1/css/bootstrap.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets/libs/fontawesome-5.13.1/css/all.min.css">
+
+</head>
+
+<body class="container-fluid">
+
+    <!-- Cabecera de la pagina -->
+    <header>
+        <div class="row">
+            <div class="col-8 ml-4">
+                <h1>MuLan</h1>
+                <h3>Music Lan Streaming</h3>
+            </div>
+            <div class="col-3 ">
+                <img src="assets/img/mulan_logo.png" alt="">
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- Menu de navegacion -->
+    <nav class="col-12 col-md-3">
+
+    </nav>
+
+
+    <main>
+        <div id="buscador_container" data-modobusqueda="generico" data-estado="expandido">
+
+            <div class="row mb-3">
+                <div id="titulo_buscador" class="col pop_small_tittle">
+                    Buscador
+                </div>
+
+                <!-- Boton de collapse -->
+                <div class="col">
+                    <a id="btn_collapse_buscador" class="top_button" type="button" href="">
+
+                        <!-- fas fa-expand icon
+                            fas fa-compress icon -->
+
+                        <span id="icon_buscador_collapse">
+                            <i class="fas fa-compress icon"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- Buscador generico -->
+            <div id="buscador_generico">
+                <div class="row mb-3">
+                    <!-- Input -->
+                    <div class="col-12 col-sm-9 col-lg-6">
+                        <input class="form-control" id="inp_buscador" type="text" placeholder="Campo de busqueda...">
+                    </div>
+                    <!-- Boton de busqueda -->
+                    <div class="col pt-3 pt-sm-0 ">
+                        <a class="pop_button float-left" id="btn_buscar" type="button" href>
+                            <i class="fas fa-search"></i> Busqueda
+                        </a>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <!-- Filtro de contenido -->
+                    <div class="col-12 col-lg-6 float-left">
+                        <select id="filtro_simple" class="mr-1" name="filtro_simple">
+                            <option default value="0">Todo</option>
+                            <option value="1">Género</option>
+                            <option value="2">Artista/Grupo</option>
+                            <option value="3">Año</option>
+                            <option value="4">Disco</option>
+                            <option value="5">Idioma</option>
+                        </select>
+
+                        <!-- boton de busqueda abanzada -->
+                        <a class="pop_button mr-1" id="btn_mostrar_buscador_abanzado" type="button" href>
+                            <i class="fas fa-sliders-h"></i> Busqueda abanzada
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- buscador abanzado -->
+            <div id="buscador_abanzado" style="display: none;">
+
+                <div class="form-horizontal">
+
+
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="email">Genero:</label>
+                        <div class="col-12 col-sm-10 col-md-9 col-lg-7">
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="email">Genero:</label>
+                        <div class="col-12 col-sm-10 col-md-9 col-lg-7">
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="email">Genero:</label>
+                        <div class="col-12 col-sm-10 col-md-9 col-lg-7">
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="email">Genero:</label>
+                        <div class="col-12 col-sm-10 col-md-9 col-lg-7">
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="email">Genero:</label>
+                        <div class="col-12 col-sm-10 col-md-9 col-lg-7">
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <!-- Boton de submit -->
+                    <div class="col">
+
+                        <a class="pop_button" id="btn_buscador_abanzado" type="button" href>
+                            <i class="fa fa-search" aria-hidden="true"></i> Buscar
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div>
+
+
+
+        </div>
+        </div>
+    </main>
+
+
+
+
+
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/buscador_actions.js"></script>
+
+
+</body>
+
+</html>
