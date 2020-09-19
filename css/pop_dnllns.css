@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'permanentmarker';
+    src: url('../fonts/permanentmarker/permanentmarker-regular-webfont.woff2') format('woff2'),
+         url('../fonts/permanentmarker/permanentmarker-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.row{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+body{
+    margin : 10px;
+    background-color: #0d0d0e !important;
+    color: whitesmoke !important;
+    font-size: 14px;
+    font-family: Monospace, serif;
+
+}
+
+header{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    /* height: 142px; */
+    background-color: #271a03;
+    /* border: 1px solid white; */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header img{
+    width: 120px;
+    float: right;
+}
+
+header h1, header h3{
+    font-family: 'permanentmarker';
+}
+
+header h1{
+    color: chartreuse;
+}
+
+h2 {
+    color: chartreuse;
+
+}
+
+label{
+    margin-left: 5px;
+}
+
+
+.form-control{
+    height: auto !important;
+    padding: 0.175rem .75rem !important;
+}
+
+i.icon{
+    color: chartreuse;
+}
+
+nav{
+    /* border-right: 1px solid chartreuse; */
+    width: 500px;
+}
+
+
+/* Usado en enlaces (<a>) */
+.pop_button{
+
+    width: fit-content;
+    padding: 3px 6px 3px 6px;
+    margin: 0px 3px 0px 3px;
+    background: #1a1a1a;
+    color: whitesmoke;
+    border-radius: 6%;
+    text-decoration-line: none;    
+
+}
+
+.pop_button:hover, .close_button:hover{
+    background: #3f3f3f;
+    color: yellow;
+    text-decoration: none;
+}
+
+.pop_small_tittle{
+
+
+    color: chartreuse;
+    font-size: 18px;
+    font-weight: bold;
+
+
+}
+
+.close_button{
+    width: fit-content;
+    padding: 2px 7px 0px 7px;
+    margin: 0px 3px 0px 3px;
+    background: #1a1a1a;
+    color: whitesmoke;
+    border-radius: 6%;
+}
+
+.espaciado{
+    margin:3px 5px 3px 0px;
+}
+
+select{
+    background: #1a1a1a;
+    color: whitesmoke;
+    padding: 3px;
+    border-radius: 6%;
+    border: 0px;
+    text-decoration-line: none;    
+    padding: 5px;
+
+}
+
+
+
+select, input{
+    margin-left: 3px !important;
+    margin-right: 3px !important;
+}
+
+
+
+.debug{
+
+    background-color: red;
+    border: 2px solid yellow;
+}
+
+.top_button{
+    padding: 2px 7px 0px 7px;
+    margin: 0px 3px 0px 3px;
+}
